@@ -1,8 +1,28 @@
 aid: trucks-venture-fund-i
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trucks-venture-fund-i.png
 name: Trucks Venture Fund I
-description: Trucks Venture Fund I is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Trucks Venture Capital (Trucks VC) is an early-stage venture firm headquartered
+  in San Francisco investing in companies building the future of transportation —
+  making mobility decarbonized, safer, and more accessible. Its focus spans
+  autonomous vehicles, electric aviation, agricultural robotics, fleet management,
+  and mobility infrastructure. Trucks Venture Fund I is the firm's first fund;
+  notable portfolio outcomes include Joby Aviation (NYSE: JOBY), Bear Flag Robotics
+  (acquired by John Deere), nuTonomy (acquired by Delphi), Roadster (acquired by
+  CDK Global), and Zendrive (acquired by Intuit). Surfaced as a portfolio relation
+  of 500 Global and profiled in the API Evangelist network as a venture-capital
+  firm; it publishes a marketing/portfolio website but no developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/trucks-venture-fund-i/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Venture Capital
+- Investment
+- Transportation
+- Mobility
+- Autonomous Vehicles
+- Early Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://trucks.vc
+- type: Portfolio
+  url: https://trucks.vc/portfolio
+- type: About
+  url: https://trucks.vc/about
+- type: Blog
+  url: https://trucks.vc/resources
+- type: SignUp
+  url: https://trucks.vc/newsletter
+- type: Contact
+  url: https://trucksvc.typeform.com/to/KOwp62
+- type: Twitter
+  url: https://twitter.com/trucksvc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trucks-vc/
+- type: DomainSecurity
+  url: security/trucks-venture-fund-i-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

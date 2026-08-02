@@ -1,0 +1,14 @@
+{
+  "repo": "trucks-venture-fund-i",
+  "feeds": [
+    {
+      "source": "https://trucks.vc/about",
+      "feed_url": "https://trucks.vc/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}
