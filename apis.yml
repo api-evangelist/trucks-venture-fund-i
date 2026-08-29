@@ -35,6 +35,9 @@ description: >-
   of 500 Global and profiled in the API Evangelist network as a venture-capital
   firm; it publishes a marketing/portfolio website but no developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/trucks-venture-fund-i/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Surfaced as a portfolio relation of 500 Global and profiled in the API Evangelist network as a venture-capital firm; it publishes a marketing/portfolio website but no developer API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
